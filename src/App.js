@@ -9,7 +9,6 @@ export default {
   methods: {
     deleteItem() {
       var input = document.getElementById('inputfield')
-      console.log('delete')
       this.input = '';
     },
     selectItem(item) {
